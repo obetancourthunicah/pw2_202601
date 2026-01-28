@@ -9,7 +9,10 @@
 </head>
 <body>
     <header>
-        <h1>Portales Web 2 Next Steps</h1>
+        <div>
+            <h1>Portales Web 2 Next Steps</h1>
+            <button id="hamburger" class="hamburger" aria-label="Toggle menu">☰</button>
+        </div>
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -65,33 +68,35 @@
                 </div>
             </div>
         </section>
-        <section id="referals" class="grid">
-            <div class="row">
-                <div class="referal col-12 col-m-6 col-l-4 row">
-                    <div class="col-3">
-                        <img src="https://picsum.photos/id/275/72/72" alt="Testimonio" />
+        <section id="referals" class="container">
+            <div class="grid">
+                <div class="row align-items-center">
+                    <div class="referal col-12 col-m-6 col-l-4 row">
+                        <div class="col-3">
+                            <img src="https://picsum.photos/id/275/72/72" alt="Testimonio" />
+                        </div>
+                        <div class="col-8 align-items-center">
+                            <strong>Mengano de Tal</strong>
+                            <blockquote>Esto es un testimonio sobre lo visto en clase ...</blockquote>
+                        </div>
                     </div>
-                    <div class="col-8">
-                        <strong>Mengano de Tal</strong>
-                        <blockquote>Esto es un testimonio sobre lo visto en clase ...</blockquote>
+                    <div class="referal col-12 col-m-6 col-l-4 row">
+                        <div class="col-3">
+                            <img src="https://picsum.photos/id/275/72/72" alt="Testimonio" />
+                        </div>
+                        <div class="col-8 align-items-center">
+                            <strong>Sutanito de Tal</strong>
+                            <blockquote>Esto es un testimonio sobre lo visto en clase ...</blockquote>
+                        </div>
                     </div>
-                </div>
-                <div class="referal col-12 col-m-6 col-l-4 row">
-                    <div class="col-3">
-                        <img src="https://picsum.photos/id/275/72/72" alt="Testimonio" />
-                    </div>
-                    <div class="col-8">
-                        <strong>Sutanito de Tal</strong>
-                        <blockquote>Esto es un testimonio sobre lo visto en clase ...</blockquote>
-                    </div>
-                </div>
-                <div class="referal col-12 col-m-6 col-l-4 row">
-                    <div class="col-3">
-                        <img src="https://picsum.photos/id/275/72/72" alt="Testimonio" />
-                    </div>
-                    <div class="col-8">
-                        <strong>Fulanito de Tal</strong>
-                        <blockquote>Esto es un testimonio sobre lo visto en clase ...</blockquote>
+                    <div class="referal col-12 col-m-6 col-l-4 row">
+                        <div class="col-3 align-items-center">
+                            <img src="https://picsum.photos/id/275/72/72" alt="Testimonio" />
+                        </div>
+                        <div class="col-8">
+                            <strong>Fulanito de Tal</strong>
+                            <blockquote>Esto es un testimonio sobre lo visto en clase ...</blockquote>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -128,63 +133,65 @@
             </div>
         </section>
         <section id="precios">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Columna 1</th>
-                        <th>Columna 2</th>
-                        <th>Columna 3</th>
-                        <th>Columna 4</th>
-                        <th>Columna 5</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1.1</td>
-                        <td>1.2</td>
-                        <td>1.3</td>
-                        <td>1.4</td>
-                        <td>1.5</td>
-                    </tr>
-                    <tr>
-                        <td>2.1</td>
-                        <td>2.2</td>
-                        <td>2.3</td>
-                        <td>2.4</td>
-                        <td>2.5</td>
-                    </tr>
-                    <tr>
-                        <td>3.1</td>
-                        <td>3.2</td>
-                        <td>3.3</td>
-                        <td>3.4</td>
-                        <td>3.5</td>
-                    </tr>
-                    <tr>
-                        <td>4.1</td>
-                        <td>4.2</td>
-                        <td>4.3</td>
-                        <td>4.4</td>
-                        <td>4.5</td>
-                    </tr>
-                    <tr>
-                        <td>5.1</td>
-                        <td>5.2</td>
-                        <td>5.3</td>
-                        <td>5.4</td>
-                        <td>5.5</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td>F1</td>
-                        <td>F2</td>
-                        <td>F3</td>
-                        <td>F4</td>
-                        <td>F5</td>
-                    </tr>
-                </tfoot>
-            </table>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Columna 1</th>
+                            <th>Columna 2</th>
+                            <th>Columna 3</th>
+                            <th>Columna 4</th>
+                            <th>Columna 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.1</td>
+                            <td>1.2</td>
+                            <td>1.3</td>
+                            <td>1.4</td>
+                            <td>1.5</td>
+                        </tr>
+                        <tr>
+                            <td>2.1</td>
+                            <td>2.2</td>
+                            <td>2.3</td>
+                            <td>2.4</td>
+                            <td>2.5</td>
+                        </tr>
+                        <tr>
+                            <td>3.1</td>
+                            <td>3.2</td>
+                            <td>3.3</td>
+                            <td>3.4</td>
+                            <td>3.5</td>
+                        </tr>
+                        <tr>
+                            <td>4.1</td>
+                            <td>4.2</td>
+                            <td>4.3</td>
+                            <td>4.4</td>
+                            <td>4.5</td>
+                        </tr>
+                        <tr>
+                            <td>5.1</td>
+                            <td>5.2</td>
+                            <td>5.3</td>
+                            <td>5.4</td>
+                            <td>5.5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>F1</td>
+                            <td>F2</td>
+                            <td>F3</td>
+                            <td>F4</td>
+                            <td>F5</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
         </section>
     </main>
     <footer>

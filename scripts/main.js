@@ -6,7 +6,16 @@ document.addEventListener("DOMContentLoaded", ()=>{
         alert("En hora buen nos vamos conectar, llena el formulario.");
     });
     initFormValidation();
+    initHamburgerMenu();
 });
+
+function initHamburgerMenu() {
+    let hamburger = document.querySelector("#hamburger");
+    let navUl = document.querySelector("header nav ul");
+    hamburger.addEventListener("click", () => {
+        navUl.classList.toggle("open");
+    });
+}
 
 function initFormValidation(){
     formData.txtNombre = document.querySelector("#txtNombre");
